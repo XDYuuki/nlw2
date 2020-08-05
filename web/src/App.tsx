@@ -1,15 +1,17 @@
 import React from 'react';
 
+import Landing from './pages/Landing';
+
 //styles Global
 import './assets/styles/global.css';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <button>Hey! Click here...</button>
+      <Landing />
     </div>
   );
 }
 
 export default App;
+
