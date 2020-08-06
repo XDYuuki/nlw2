@@ -15,8 +15,8 @@ import purpleHeartIcon 	from '../../assets/icons/purple-heart.svg';
 
 function Landing () {
 	return(
-		<	div id="page-landing">
-			<div id="page-landing-content" className="centainer">
+		<div id="page-landing">
+			<div id="page-landing-content" className="container">
 
 				<div className="logo-container">
 					<img src={logoImg} alt="Logo Proffy"/>
@@ -25,7 +25,7 @@ function Landing () {
 
 				<img 
 							src={landingImg}
-							alt="Landing"
+							alt="Plataforma de Estudos"
 							className="hero-image"
 				/>
 
@@ -36,8 +36,8 @@ function Landing () {
 					</a>
 
 					<a href="/" className="give-classes" > 
-						<img src={giveClassesIcon} alt="Study"/>
-						Estudar
+						<img src={giveClassesIcon} alt="Teatch"/>
+						Ensinar
 					</a>
 				</div>
 
