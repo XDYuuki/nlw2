@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 //Styles
 import './styles.css';
@@ -30,15 +31,15 @@ function Landing () {
 				/>
 
 				<div className="buttons-container">
-					<a href="/" className="study" > 
+					<Link to="/Study" className="study" > 
 						<img src={studyIcon} alt="Study"/>
 						Estudar
-					</a>
+					</Link>
 
-					<a href="/" className="give-classes" > 
-						<img src={giveClassesIcon} alt="Teatch"/>
-						Ensinar
-					</a>
+					<Link to="/give-classes" className="give-classes" > 
+						<img src={giveClassesIcon} alt="Give Classes"/>
+						Dar aulas
+					</Link>
 				</div>
 
 				<span className="total-connections">
