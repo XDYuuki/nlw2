@@ -1,9 +1,15 @@
-import React from 'react';
+import React    from 'react';
+
+import './styles.css';
+
+import PageHeader from '../../components/PageHeader';
 
 
 function TeacherList () {
   return (
-    <h1>Teacher List</h1>
+    <div id="page-teacher-list" className="container">
+      <PageHeader title="Estes são os proffys disponíveis." />
+    </div>
   );
 }
 
