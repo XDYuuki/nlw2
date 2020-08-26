@@ -4,6 +4,9 @@ import express from 'express';
 import routes from './routes';
 
 class AppController {
+    
+    public express: express.Application;
+
     constructor(){
         this.express = express();
 
